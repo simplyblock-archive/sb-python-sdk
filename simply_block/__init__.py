@@ -1,1 +1,1 @@
-from simply_block.simply_block import simply_sign
+from simply_block import simply_sign
