@@ -8,7 +8,7 @@ setup(
   author='Jitender Bhutani',
   author_email = 'Jitender.Bhutani21@gmail.com',
   url='https://github.com/JitenderBhutani/simply_block',
-  download_url='https://github.com/JitenderBhutani/simply_block/archive/v_01.tar.gz',    # TODO I explain this later on
+  download_url='https://github.com/JitenderBhutani/simply_block/archive/0.1.tar.gz',
   keywords=['Simply', 'Block', 'Simply Block', "Blockchain"],   # Keywords that define your package best
   install_requires=[            # TODO
       'requests_toolbelt',
