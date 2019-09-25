@@ -8,11 +8,14 @@ setup(
   author='Jitender Bhutani',
   author_email = 'Jitender.Bhutani21@gmail.com',
   url='https://github.com/JitenderBhutani/simply_block',
-  download_url='https://github.com/JitenderBhutani/simply_block',    # TODO I explain this later on
+  download_url='https://github.com/JitenderBhutani/simply_block/archive/v_01.tar.gz',    # TODO I explain this later on
   keywords=['Simply', 'Block', 'Simply Block', "Blockchain"],   # Keywords that define your package best
   install_requires=[            # TODO
-          'validators',
-          'beautifulsoup4',
+      'requests_toolbelt',
+      'requests',
+      'hmac',
+      'json',
+      'hashlib'
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
