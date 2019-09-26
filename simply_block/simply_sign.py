@@ -27,6 +27,7 @@ class SimplySign:
         """
 
         self.data = data
+        print(str(data))
         self.signed_data = hmac.new(
             self.private_key.encode('utf-8'), str(data).encode('utf-8'), digestmod=hashlib.sha384
         ).hexdigest()
@@ -53,6 +54,8 @@ class SimplySign:
             signed_data = self.generate_signature(fields)
 
             # Append Files according to multipart encoder
+            for file_name, file_path in files.items():
+                files[file_name] = (file_path, open(file_path, 'rb'), 'text/plain')
             fields.update(files)
 
             # Append Fields

@@ -1,4 +1,4 @@
-from simply_block.simply_block.simply_sign import SimplySign
+from simply_block.simply_sign import SimplySign
 
 # Token
 public_key = "hmac_pub_1"
